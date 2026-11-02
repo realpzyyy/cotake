@@ -5,59 +5,92 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CoTake Camera · Support</title>
 <meta name="description" content="Support and contact for CoTake Camera">
+<meta name="theme-color" content="#3b46f0">
+<link rel="icon" href="../favicon.png">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<main>
-<header>
-  <a class="brand" href="./">CoTake Camera</a>
-  <nav><a href="privacy/">Privacy Policy</a><a href="../" lang="zh-Hans">中文</a></nav>
+<header class="hero">
+  <div class="wrap">
+    <div class="topbar">
+      <a class="mini" href="./"><img src="../favicon.png" alt="">CoTake Camera</a>
+      <nav class="pills"><a href="privacy/">Privacy</a><a href="../" lang="zh-Hans">中文</a></nav>
+    </div>
+    <div class="hero-body">
+      <img class="app-icon" src="../icon.png" alt="CoTake Camera icon">
+      <h1>CoTake Camera Support</h1>
+      <p class="lead">One moment. Two perspectives.</p>
+      <p class="sub">Capture landscape and portrait versions of the same moment in one shot, entirely on your iPhone.</p>
+    </div>
+  </div>
 </header>
 
-<h1>CoTake Camera Support</h1>
-<p class="meta">同刻相机 · Camera app for iPhone</p>
+<main class="content">
+  <div class="wrap">
+    <section class="card contact">
+      <div>
+        <p class="eyebrow">Contact us</p>
+        <p class="addr">cotake.camera@outlook.com</p>
+        <p class="note">Send questions, bug reports or privacy requests here. We'll reply as soon as we can.</p>
+      </div>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:cotake.camera@outlook.com">Email us</a>
+        <button class="btn btn-ghost" type="button" data-copy="cotake.camera@outlook.com" data-done="Copied">Copy address</button>
+      </div>
+    </section>
 
-<p>CoTake Camera captures a landscape and a portrait version of the same moment in one shot, so you don't have to crop afterwards. All capture and processing happens on your iPhone.</p>
+    <section class="card">
+      <p class="eyebrow">When reporting a problem, please include</p>
+      <ul class="checks">
+        <li>Your iPhone model and iOS version</li>
+        <li>The App version: Settings › General › iPhone Storage › CoTake</li>
+        <li>The capture mode you were using and the steps that led to the problem</li>
+        <li>Screenshots if helpful. Media files aren't required; only send what you're comfortable sharing</li>
+      </ul>
+      <p class="hint">You can also open your mail app from Settings › Ratings and Feedback › Report a Problem in the App. The App never sends email or attaches files automatically.</p>
+    </section>
 
-<div class="card">
-  <p><strong>Contact us</strong></p>
-  <p class="mail"><a href="mailto:cotake.camera@outlook.com">cotake.camera@outlook.com</a></p>
-  <p>Send questions, bug reports or privacy requests to this address. We'll reply as soon as we can.</p>
-</div>
-
-<h2>When reporting a problem, please include</h2>
-<ul>
-  <li>Your iPhone model and iOS version</li>
-  <li>The App version (Settings › General › iPhone Storage › CoTake)</li>
-  <li>The capture mode you were using and the steps that led to the problem</li>
-  <li>Screenshots if helpful. Media files are not required; only send what you are comfortable sharing.</li>
-</ul>
-<p>You can also go to Settings › Ratings and Feedback › Report a Problem in the App to open your mail app. The App never sends email or attaches files automatically.</p>
-
-<h2>FAQ</h2>
-
-<h3>Which devices are supported?</h3>
-<p>An iPhone running iOS 17 or later. Capturing with two cameras at once requires an iPhone that supports simultaneous camera capture. The App only shows the modes your iPhone's cameras actually support.</p>
-
-<h3>Where are my photos and videos?</h3>
-<p>New captures are kept in the App's Library first. Open an item and tap save to copy it to Photos. <strong>Items you haven't saved to Photos exist only inside the App and are removed if you delete the App.</strong></p>
-
-<h3>Does deleting an item in the App affect Photos?</h3>
-<p>No. Deleting in the App removes only the selected local file. Its paired item and any copy already saved to Photos stay where they are.</p>
-
-<h3>Why does the App ask for camera, microphone, Photos and location access?</h3>
-<p>The camera is used to capture. The microphone records sound for videos and isn't needed for photos. Photos access is used only to add items you choose to save; the App doesn't read your existing library. Location is optional: Record location is off by default and, when on, only tags new captures with where they were taken. You can change these permissions anytime in system Settings.</p>
-
-<h3>What happens if a call, switching apps, low storage or overheating interrupts a recording?</h3>
-<p>The App stops recording and keeps as much of the recorded media as possible. Check the Library, where the App marks items that were only partly saved. If it keeps happening, please let us know.</p>
-
-<h3>Is it free?</h3>
-<p>The current version is free, with no in-app purchases, ads or account sign-up.</p>
-
-<h3>Are my captures uploaded?</h3>
-<p>No. The App never automatically uploads your media, location or usage records. See the <a href="privacy/">Privacy Policy</a> for details.</p>
-
-<footer>CoTake Camera · <a href="privacy/">Privacy Policy</a> · <a href="../" lang="zh-Hans">中文支持</a></footer>
+    <h2 class="section-title">FAQ</h2>
+    <div class="faq">
+      <details>
+        <summary>Which devices are supported?</summary>
+        <div><p>An iPhone running iOS 17 or later. Capturing with two cameras at once requires an iPhone that supports simultaneous camera capture. The App only shows the modes your iPhone's cameras actually support.</p></div>
+      </details>
+      <details>
+        <summary>Where are my photos and videos?</summary>
+        <div><p>New captures are kept in the App's Library first. Open an item and tap save to copy it to Photos. <strong>Items you haven't saved to Photos exist only inside the App and are removed if you delete the App.</strong></p></div>
+      </details>
+      <details>
+        <summary>Does deleting an item in the App affect Photos?</summary>
+        <div><p>No. Deleting in the App removes only the selected local file. Its paired item and any copy already saved to Photos stay where they are.</p></div>
+      </details>
+      <details>
+        <summary>Why does the App ask for camera, microphone, Photos and location access?</summary>
+        <div><p>The camera is used to capture. The microphone records sound for videos and isn't needed for photos. Photos access is used only to add items you choose to save; the App doesn't read your existing library. Location is optional: Record location is off by default and, when on, only tags new captures with where they were taken. You can change these permissions anytime in system Settings.</p></div>
+      </details>
+      <details>
+        <summary>What if a call, switching apps, low storage or overheating interrupts a recording?</summary>
+        <div><p>The App stops recording and keeps as much of the recorded media as possible. Check the Library, where the App marks items that were only partly saved. If it keeps happening, please let us know.</p></div>
+      </details>
+      <details>
+        <summary>Is it free?</summary>
+        <div><p>The current version is free, with no in-app purchases, ads or account sign-up.</p></div>
+      </details>
+      <details>
+        <summary>Are my captures uploaded?</summary>
+        <div><p>No. The App never automatically uploads your media, location or usage records. See the <a href="privacy/">Privacy Policy</a> for details.</p></div>
+      </details>
+    </div>
+  </div>
 </main>
+
+<footer>
+  <div class="wrap">
+    <span>CoTake Camera · 同刻相机</span>
+    <nav><a href="privacy/">Privacy Policy</a><a href="../" lang="zh-Hans">中文</a></nav>
+  </div>
+</footer>
+<script src="../copy.js"></script>
 </body>
 </html>
