@@ -57,7 +57,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
 .hero::before { width: 300px; height: 200px; right: -40px; bottom: -70px; }
 .hero::after { width: 190px; height: 290px; right: 150px; top: -150px; }
 .topbar { position: relative; z-index: 1; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
-.mini { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-weight: 600; font-size: 16px; }
+.mini { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-weight: 600; font-size: 16px; white-space: nowrap; flex-shrink: 0; }
 .mini:hover { text-decoration: none; }
 .mini img { width: 30px; height: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18); }
 .pills { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
